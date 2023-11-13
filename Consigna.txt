@@ -1,0 +1,32 @@
+Se desea crear una webapp para llevar la agenda de contactos de una empresa.
+
+Esta agenda maneja información de personas (con, al menos, los siguientes datos: 
+Nombres,
+ Apellidos, 
+ e-mail, 
+ teléfono, 
+ empresa a la cual pertenece y 
+ notas adicionales) y 
+ 
+ empresas (con, al menos, la siguiente información: 
+ Nombre, 
+ sitio web y 
+ notas adicionales).
+
+Se pretende contar con la siguiente funcionalidad:
+
+XIngresar y eliminar personas
+XBuscar personas por nombre y apellido
+XIngresar y eliminar empresas
+XSolo se podrá eliminar una empresa si esta no tiene personas asociadas
+XListar todas las personas de la agenda
+XListar todas las empresas de la agenda
+XVer los datos de una persona
+XVer los datos de una empresa
+Usted debe diseñar e implementar, usando Express.JS, un backend para esta webapp.
+
+Adicionalmente, debe trabajar en ambos de los siguientes ítems:
+
+XImplementar seguridad en la API REST
+Se debe estar autenticado para realizar cualquiera de las operaciones mencionadas anteriormente
+Nota: no es necesario implementar una capa de persistencia en el backend.
